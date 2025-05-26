@@ -24,9 +24,6 @@ Tool Used: Microsoft Excel
      - Dt_Customer → date_customer
      (etc.)
 
-6. Added New Column:
-   - Calculated 'age' column using the formula: =YEAR(TODAY()) - year_birth
-
 Notes:
 - All changes were done manually using Excel filters, formulas, and formatting tools.
 - Screenshots (if included) demonstrate the steps visually.
