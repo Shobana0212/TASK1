@@ -17,7 +17,6 @@ The goal of this task was to clean and preprocess a raw dataset using Microsoft 
    - Marital status: ensured uniform spelling and case
 4. **Formatted date values** in the `Dt_Customer` column to `DD-MM-YYYY`.
 5. **Renamed column headers** to lowercase with underscores (e.g., `Marital_Status` → `marital_status`).
-6. **Calculated age** using `=YEAR(TODAY()) - Year_Birth`.
 
 📄 Files Included
 - `cleaned_customer_data.xlsx`: Cleaned and processed dataset
