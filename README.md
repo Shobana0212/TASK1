@@ -22,8 +22,8 @@ The goal of this task was to clean and preprocess a raw dataset using Microsoft 
 📄 Files Included
 - `cleaned_customer_data.xlsx`: Cleaned and processed dataset
 - `summary.txt`: Brief overview of all changes made
-- `raw_sample_data.xlsx` *(optional)*: The original version before cleaning
-- `screenshots/`: (Optional) Excel screenshots showing cleaning steps
+- `raw_sample_data.xlsx`: The original version before cleaning
+- `screenshots/`: Excel screenshots showing cleaning steps
 - `README.md`: This file
 
 🛠 Tools Used
