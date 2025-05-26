@@ -4,15 +4,15 @@ Dataset: Customer Personality Analysis (Sample Data)
 Tool Used: Microsoft Excel
 
 1. Removed Duplicates:
-   - Identified and removed duplicate row for customer ID 1006 (same as ID 1001).
+   - I identified and removed a duplicate row for customer ID 1006 (which is the same as ID 1001).
 
 2. Handled Missing Values:
    - Two missing values in the 'Income' column (IDs 1002 and 1012) were filled using the average of the available incomes.
 
 3. Standardized Text Values:
    - Gender values converted to "Male" and "Female" (e.g., M, F, m, f → Male/Female).
-   - Education values standardized to "Graduation", "Master", and "PhD".
-   - Marital_Status standardized to proper case (e.g., "married" → "Married").
+   - Education values are standardized to "Graduation", "Master", and "PhD".
+   - Marital_Status standardized to proper cases (e.g., "married" → "Married").
 
 4. Fixed Date Formats:
    - All dates in the 'Dt_Customer' column converted to uniform format: DD-MM-YYYY.
@@ -21,7 +21,7 @@ Tool Used: Microsoft Excel
    - Changed column headers to lowercase with underscores for consistency:
      - Marital_Status → marital_status
      - Year_Birth → year_birth
-     - Dt_Customer → dt_customer
+     - Dt_Customer → date_customer
      (etc.)
 
 6. Added New Column:
