@@ -1,0 +1,32 @@
+SUMMARY OF DATA CLEANING AND PREPROCESSING (Task 1)
+
+Dataset: Customer Personality Analysis (Sample Data)
+Tool Used: Microsoft Excel
+
+1. Removed Duplicates:
+   - Identified and removed duplicate row for customer ID 1006 (same as ID 1001).
+
+2. Handled Missing Values:
+   - Two missing values in the 'Income' column (IDs 1002 and 1012) were filled using the average of the available incomes.
+
+3. Standardized Text Values:
+   - Gender values converted to "Male" and "Female" (e.g., M, F, m, f → Male/Female).
+   - Education values standardized to "Graduation", "Master", and "PhD".
+   - Marital_Status standardized to proper case (e.g., "married" → "Married").
+
+4. Fixed Date Formats:
+   - All dates in the 'Dt_Customer' column converted to uniform format: DD-MM-YYYY.
+
+5. Renamed Columns:
+   - Changed column headers to lowercase with underscores for consistency:
+     - Marital_Status → marital_status
+     - Year_Birth → year_birth
+     - Dt_Customer → dt_customer
+     (etc.)
+
+6. Added New Column:
+   - Calculated 'age' column using the formula: =YEAR(TODAY()) - year_birth
+
+Notes:
+- All changes were done manually using Excel filters, formulas, and formatting tools.
+- Screenshots (if included) demonstrate the steps visually.
